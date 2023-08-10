@@ -15,5 +15,7 @@ pip install mediapipe </h4>
 <h4>pip install numpy</h4>
 <h1>Description</h1>
 <h4>Capture the frames continuously from the camera using OpenCV and Convert BGR image to an RGB image and make predictions using initialized hands model. Prediction made by the model is saved in the results variable from which we can access landmarks using results.multi_hand_landmarks and if hands are present in the frame, detect hand landmarks after that calculate the distance between thumb tip and index finger tip. Map the distance of thumb tip and index fingertip with brightness range i.e according to distance between them brightness of system will change.</h4>
+<h4>I have set Maximum size as 15 cm and minimum as 0cm</h4>
+<h4>Each cm gap roughly equates to 6% change  in brightnesss</h4>
 <h3>Output</h3>
 <img src=https://media.geeksforgeeks.org/wp-content/uploads/20220319121908/explorerULe8VWR2yH.gif>
